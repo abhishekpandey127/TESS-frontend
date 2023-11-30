@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+    prod:
+        build:
+            context: .
+            dockerfile: Dockerfile.prod
+            args:
+                - REACT_APP_NAME=test
+        ports:
+            - '8080:80'

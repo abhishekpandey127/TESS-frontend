@@ -1,0 +1,19 @@
+.login-form {
+  margin: 100px auto auto;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.login-form-button {
+  width: 100%;
+}
